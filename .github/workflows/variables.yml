@@ -9,7 +9,7 @@ on:
 jobs:
  test_expressions:
   name: job to test expressions
-  runs-on: ununtu-latest
+  runs-on: ubuntu-latest
   env:
    aBoolean: ${{ false}}
    aNull: ${{null}}
